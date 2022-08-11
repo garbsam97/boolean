@@ -1,0 +1,101 @@
+html {
+    color: #00DD00;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-image: url('res/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    margin-top: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 25px;
+    width: 60%;
+    height: 70%;
+    padding: 5%;
+    text-align: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+#content h1 {
+    font-weight: 500;
+    margin: .25rem;
+}
+
+.navbar {
+    background-color: #00DD00;
+    padding: 10px;
+}
+
+.navbar a {
+    padding: 20px;
+}
+
+.available-escooter {
+    color: #fefefe;
+    text-align: left;
+}
+
+.escooter {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.escooter span {
+    display: block;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.location {
+    font-size: .9rem;
+    font-weight: 200;
+}
+
+.status {
+    font-size: .9rem;
+    font-weight: 200;
+}
+
+.battery-status {
+    width: 60%;
+}
+
+.battery-status div {
+    height: 25px;
+}
+
+.green-full {
+    background-color: #1EC31E;
+    border-radius: 5px;
+}
+
+.yellow-half {
+    background-color: #F5B453;
+    border-radius: 5px;
+}
+
+.red-empty {
+    background-color: #BE4141;
+    border-radius: 5px;
+}
